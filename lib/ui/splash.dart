@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 import 'home.dart';
 
-class SplashScreen extends StatefulWidget {
-  const SplashScreen({super.key});
+class Splash extends StatefulWidget {
+  const Splash({super.key});
 
   @override
-  State<SplashScreen> createState() => _SplashScreenState();
+  State<Splash> createState() => _SplashState();
 }
 
-class _SplashScreenState extends State<SplashScreen>
+class _SplashState extends State<Splash>
     with SingleTickerProviderStateMixin {
 
   late AnimationController controller;
@@ -25,15 +25,21 @@ class _SplashScreenState extends State<SplashScreen>
       duration: const Duration(seconds: 2),
     );
 
-    scale = Tween<double>(begin: 0.5, end: 1.2).animate(controller);
-    opacity = Tween<double>(begin: 0.0, end: 1.0).animate(controller);
+    scale = Tween<double>(begin: 0.5, end: 1.2).animate(
+      CurvedAnimation(parent: controller, curve: Curves.easeOut),
+    );
+
+    opacity = Tween<double>(begin: 0.0, end: 1.0).animate(
+      CurvedAnimation(parent: controller, curve: Curves.easeIn),
+    );
 
     controller.forward();
 
+    // ⏳ troca de tela
     Timer(const Duration(seconds: 3), () {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (_) => const HomeScreen()),
+        MaterialPageRoute(builder: (_) => const Home()),
       );
     });
   }
@@ -54,7 +60,10 @@ class _SplashScreenState extends State<SplashScreen>
             scale: scale,
             child: const Text(
               "Funcionários",
-              style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
+              style: TextStyle(
+                fontSize: 32,
+                fontWeight: FontWeight.bold,
+              ),
             ),
           ),
         ),
