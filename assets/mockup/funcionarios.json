@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "nome": "Mariana Souza",
+    "cargo": "Atendente",
+    "salario": 1850.50,
+    "dataContratacao": "2022-03-15",
+    "avatar": "assets/info/atendente.jpg"
+  },
+  {
+    "id": 2,
+    "nome": "Carlos Pereira",
+    "cargo": "Lavador",
+    "salario": 2100.00,
+    "dataContratacao": "2021-11-02",
+    "avatar": "assets/info/lavador.jpg"
+  },
+  {
+    "id": 3,
+    "nome": "Fernanda Lima",
+    "cargo": "Passadeira",
+    "salario": 1950.75,
+    "dataContratacao": "2023-01-20",
+    "avatar": "assets/info/passadeira.webp"
+  },
+  {
+    "id": 4,
+    "nome": "João Batista",
+    "cargo": "Gerente",
+    "salario": 3500.00,
+    "dataContratacao": "2020-08-10",
+    "avatar": "assets/info/gerente.jpg"
+  },
+  {
+    "id": 5,
+    "nome": "Aline Rocha",
+    "cargo": "Auxiliar de Lavanderia",
+    "salario": 1700.00,
+    "dataContratacao": "2024-02-05",
+    "avatar": "assets/info/auxiliar.jpg"
+  },
+  {
+    "id": 6,
+    "nome": "Ricardo Alves",
+    "cargo": "Motorista",
+    "salario": 2200.30,
+    "dataContratacao": "2022-07-18",
+    "avatar": "assets/info/motorista.jpg"
+  },
+  {
+    "id": 7,
+    "nome": "Patrícia Gomes",
+    "cargo": "Atendente",
+    "salario": 1820.00,
+    "dataContratacao": "2023-06-12",
+    "avatar": "assets/info/atendente2.jpg"
+  },
+  {
+    "id": 8,
+    "nome": "Eduardo Martins",
+    "cargo": "Técnico de Manutenção",
+    "salario": 2800.90,
+    "dataContratacao": "2021-04-25",
+    "avatar": "assets/info/manutencao.jpg"
+  },
+  {
+    "id": 9,
+    "nome": "Juliana Freitas",
+    "cargo": "Passadeira",
+    "salario": 2000.00,
+    "dataContratacao": "2022-09-30",
+    "avatar": "assets/info/passadeira.jpg"
+  },
+  {
+    "id": 10,
+    "nome": "Lucas Ribeiro",
+    "cargo": "Auxiliar de Lavanderia",
+    "salario": 1750.60,
+    "dataContratacao": "2024-05-14",
+    "avatar": "assets/info/auxiliar.webp"
+  }
+]
