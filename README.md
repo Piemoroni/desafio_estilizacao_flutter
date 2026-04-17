@@ -21,14 +21,14 @@ O projeto tem como objetivo praticar:
 
 ## Funcionalidades
 
-✔ Splash Screen com animação (fade + scale)  
-✔ Carregamento de dados via JSON local  
-✔ Exibição de funcionários em formato de card  
-✔ Navegação entre funcionários (Anterior / Próximo)  
-✔ Botões desabilitados no início e fim da lista  
-✔ Dropdown para seleção direta de funcionário  
-✔ Imagens locais (assets)  
-✔ Layout padronizado e responsivo  
+Splash Screen com animação (fade + scale)  
+Carregamento de dados via JSON local  
+Exibição de funcionários em formato de card  
+Navegação entre funcionários (Anterior / Próximo)  
+Botões desabilitados no início e fim da lista  
+Dropdown para seleção direta de funcionário  
+Imagens locais (assets)  
+Layout padronizado e responsivo  
 
 ---
 
